@@ -1,4 +1,4 @@
-async function fetchWeatherData(city, units) {
+const fetchWeatherData = async (city, units) => {
   const base = 'https://api.openweathermap.org/data/2.5/weather';
   const key = 'd17eafb04cf171172d18224fbe49f488';
   const response = await fetch(`${base}?q=${city}&APPID=${key}&units=${units}`, { mode: 'cors' });

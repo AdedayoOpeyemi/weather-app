@@ -1,6 +1,6 @@
 import { getGif } from './requests';
 
-function createWeatherCard(data) {
+const createWeatherCard = (data) => {
   return `<p id="location"><strong>Location:</strong> ${data.sys.country}, ${data.name}</p>
   <p ><strong>Temperature:</strong>${data.main.temp} </p>
   <p ><strong>Feeling like:</strong>${data.main.feels_like} </p>
@@ -11,12 +11,12 @@ function createWeatherCard(data) {
 </div>`;
 }
 
-function insertWeatherCard(data) {
+const insertWeatherCard = (data) => {
   const card = document.querySelector('#result');
   card.innerHTML = createWeatherCard(data);
 }
 
-function displayError(data) {
+const displayError = (data) => {
   const errorSpan = document.querySelector('#requestError');
   errorSpan.innerText = data.message;
   errorSpan.style.color = 'red';
