@@ -13,6 +13,7 @@ App to get weather details of cities
 - Open Weather API
 - Giphy API
 
+Live Demo: [Weather-App](https://inspiring-bose-84a6ab.netlify.app)
 ![screenshot](./src/assets/screenshot.png)
 
 ## Getting Started
