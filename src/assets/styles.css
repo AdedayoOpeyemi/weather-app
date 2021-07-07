@@ -5,7 +5,7 @@ h1 {
 }
 
 form.weather-form {
-  max-width:300px;
+  max-width: 300px;
 }
 
 form.weather-form input[type=text] {
@@ -21,7 +21,7 @@ form.weather-form button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;

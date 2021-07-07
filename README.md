@@ -13,8 +13,6 @@ App to get weather details of cities
 - Open Weather API
 - Giphy API
 
-Live Demo: [TodoList_App](https://rawcdn.githack.com/AdedayoOpeyemi/Todo_list/47333e8bc22560c45d0a04be1dcbb89037b297ff/dist/index.html)
-
 ![screenshot](./src/assets/screenshot.png)
 
 ## Getting Started
