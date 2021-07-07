@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Github: [@Adedayoopeyemi](https://github.com/Adedayoopeyemi)
 - Twitter: [@Oyelesiopy](https://twitter.com/oyelesiopy)
-- Linkedin: [linkedin](https://linkedin.com/opeyemioyelesi)
+- Linkedin: [Opeyemi Oyelesi](https://linkedin.com/opeyemioyelesi)
 
 
 ## Contributing
