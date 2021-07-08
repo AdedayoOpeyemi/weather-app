@@ -1,0 +1,65 @@
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+form.weather-form {
+  max-width: 300px;
+}
+
+form.weather-form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.weather-form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.weather-form button:hover {
+  background: #0b7dda;
+}
+
+form.weather-form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#result {
+  position: relative;
+}
+
+#weatherGif {
+  position: absolute;
+  width: 25%;
+  top: 16px;
+  right: 8px;
+  padding: 2px;
+  border: 1px solid rgb(206, 203, 203);
+}
+
+#gif {
+  width: 100%;
+}
+
+.showDisplay {
+  display: block;
+}
+
+.hideDisplay {
+  display: none;
+}
