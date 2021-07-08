@@ -28,7 +28,7 @@ const createWeatherCard = (data) => {
   <p><strong>Weather type:</strong> ${data.weather[0].main}</p>
   <p><strong>Weather description:</strong>${data.weather[0].description}</p>
   <img class="" id="weatherGif" src='http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png' alt="${data.weather[0].description}">
-  <img class="" id="gif" src="#" alt="#">
+  <img class="" id="gif" src="#" alt="${data.weather[0].description}">
 </div>`;
 }
 
