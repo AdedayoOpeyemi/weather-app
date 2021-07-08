@@ -22,10 +22,34 @@ To get a local copy up and running follow these simple example steps:
 
 ### Setup
 
-- Clone the repo `git clone https://github.com/adedayoopeyemi/weathr-app.git`
-- `cd` into the cloned repo `cd weather-app`
-- To install all dependencies use `npm install`
-- To get it running 
+1. Open your terminal.
+2. Navigate to the desired location to download the contents of this repository.
+3. Copy and paste the following code into your terminal :
+   ```bash
+   $ git clone https://github.com/adedayoopeyemi/weathr-app.git
+   ```
+4. Run `cd weather-app`
+5. Install your dependencies 
+    ```bash
+    $ npm install
+    ```
+6. run
+    ```bash
+    npm run build-dev
+    ``` 
+    to bundle scripts with **_webpack_** a static module bundler for modern JavaScript applications
+
+### Usage
+Launch the local version of this project by opening the `dist/index.html` file in the with your browser
+
+Or
+
+run
+    ```bash
+    npm run start
+    ```
+    to start a server
+
 
 ## Authors
 
