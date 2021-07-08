@@ -33,7 +33,9 @@ const createWeatherCard = (data) => {
 }
 
 const convertToFah = (data) => {
-  return (data * 1.8) + 32;
+  const fahRead = (data * 1.8) + 32;
+  return fahRead.toFixed(2)
+
 }
 const insertWeatherCard = (data) => {
   const card = document.querySelector('#result');

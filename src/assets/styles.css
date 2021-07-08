@@ -57,7 +57,7 @@ form.weather-form::after {
 }
 
 .showDisplay {
- display: block;
+  display: block;
 }
 
 .hideDisplay {
