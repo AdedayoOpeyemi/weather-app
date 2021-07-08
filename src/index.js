@@ -7,7 +7,7 @@ import { insertWeatherCard, displayError, displayImage } from './modules/ui.js';
 document.querySelector('#weather-form').addEventListener('submit', (e) => {
   e.preventDefault();
   const city = document.querySelector('#city-name').value;
-  const unit = document.querySelector('input[name="unit"]:checked').value;
+  const unit = "metric";
 
   const request = fetchWeatherData(city, unit);
   request.then((data) => {

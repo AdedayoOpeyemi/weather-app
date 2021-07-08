@@ -24,7 +24,8 @@ To get a local copy up and running follow these simple example steps:
 
 - Clone the repo `git clone https://github.com/adedayoopeyemi/weathr-app.git`
 - `cd` into the cloned repo `cd weather-app`
-- Have fun
+- To install all dependencies use `npm install`
+- To get it running 
 
 ## Authors
 

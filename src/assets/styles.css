@@ -46,7 +46,7 @@ form.weather-form::after {
 #weatherGif {
   position: absolute;
   width: 25%;
-  top: 8px;
+  top: 16px;
   right: 8px;
   padding: 2px;
   border: 1px solid rgb(206, 203, 203);
@@ -54,4 +54,12 @@ form.weather-form::after {
 
 #gif {
   width: 100%;
+}
+
+.showDisplay {
+ display: block;
+}
+
+.hideDisplay {
+  display: none;
 }
